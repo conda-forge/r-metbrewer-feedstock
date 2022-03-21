@@ -28,6 +28,7 @@ requirements:
     - r-base
   run:
     - r-base
+    - r-ggplot2
 
 test:
   commands:
