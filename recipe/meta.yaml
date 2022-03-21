@@ -1,4 +1,4 @@
-{% set version = '0.1.0' %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/MetBrewer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/MetBrewer/MetBrewer_{{ version }}.tar.gz
-  sha256: 474b13c1a9e78d902549bac9c1d770a1899c81b22844324f4fc6df24f55dc8f1
+  sha256: e7be2881416d909672462d49c6cc82aa63132423102765f3208036967e79a174
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -39,9 +39,7 @@ about:
   license: CC0-1.0
   license_family: CC
   license_file: LICENSE.md
-  summary: Palettes Inspired by Works at the Metropolitan Museum of Art in New York. Currently
-    contains 50 color schemes and checks for colorblind-friendliness of palettes. Colorblind
-    accessibility checked using Jakub Nowosad's package 'colorblindcheck'<https://nowosad.github.io/colorblindcheck/>.
+  summary: Palettes Inspired by Works at the Metropolitan Museum of Art in New York. Currently contains 50 color schemes and checks for colorblind-friendliness of palettes. Colorblind accessibility checked using Jakub Nowosad's package 'colorblindcheck'<https://nowosad.github.io/colorblindcheck/>.
 
 
 extra:
