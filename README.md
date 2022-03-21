@@ -5,7 +5,7 @@ Home: https://CRAN.R-project.org/package=MetBrewer
 
 Package license: CC0-1.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-metbrewer-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-metbrewer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Palettes Inspired by Works at the Metropolitan Museum of Art in New York. Currently contains 50 color schemes and checks for colorblind-friendliness of palettes. Colorblind accessibility checked using Jakub Nowosad's package 'colorblindcheck'<https://nowosad.github.io/colorblindcheck/>.
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14961&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-metbrewer-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14961&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-metbrewer-feedstock?branchName=main">
       </a>
     </td>
   </tr>
