@@ -26,6 +26,7 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-ggplot2
   run:
     - r-base
     - r-ggplot2
